@@ -1,0 +1,328 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+header {
+	background-color: #313332;
+	height: 50px;
+}
+ * {
+	box-sizing: border-box;
+}
+.row:before,
+.row:after {
+    content: " "; 
+    display: table; 
+    clear: both;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+.container1 {
+	max-width: 900px;
+	margin: 0 auto;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style-type: none;
+}
+header nav ul li {
+  display:inline-block;
+}
+header nav ul li a {
+	line-height: 50px;
+	padding: 0 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+header nav img {
+	padding: 10px 0;
+}
+header nav ul li a:hover {
+	background: #ccc;
+}
+.hero {
+	width: 100%;
+	height: 500px;
+	background: url(https://images.unsplash.com/1/macbook-air-all-faded-and-stuff.jpg) ;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.slogan {
+	float: right;
+	margin-top: 200px;
+	max-width: 800px;
+	padding:10px 50px 10px 10px;
+	color: white;
+	background-color: rgba(1, 1, 0, 0.4);
+}
+[class*="col-"] {
+	float: left;
+	min-height: 10px;		
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.blue {color: #00C7E8;} 
+.col-font { font-family: Shrikhand;
+		  font-size: 22px; }
+.col-padding { padding: 30px;}
+
+
+.gallery img,
+.team img {
+	float: left;
+	width: 100%;
+}
+.team img {
+	margin-top: 30px;
+	padding: 30px;
+	border-radius: 50%;
+}	
+.promotion {
+	width: 100%;
+	height: auto;
+	background: url(http://i.imgur.com/y5kp2g3.jpg) ;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	color: white;
+	font-size: 22px;
+	
+}
+.promotion img {
+	position: static;
+	max-width: 60%;
+	height: auto;
+}
+.numbers,
+.elements,
+.fworks,
+.team {
+	text-align: center;
+	margin: 50px auto;
+}
+.footer {
+	background-color: #313332;
+	color: white;
+	text-align: left;
+}
+.footer i { 
+	color: white;
+	background-color: #00C7E8;
+	padding: 5px;
+}
+footer {
+	Background-color: #252726;
+	height: 50px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 10px;
+}
+.promotion .container1 {
+	position: relative;
+
+}
+@media(max-width:767px) {
+	
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+.container {
+	width: 100%;
+}
+[class*="col-"] {
+    padding: 12px; 
+    float:left;
+}
+header {
+	background-color: #313332;
+	text-align: center;
+	height: auto;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+	float: none;
+	list-style-type: none;
+}
+
+header nav ul li {
+  display:block;
+}
+
+header nav ul li a {
+	line-height: 50px;
+	padding: 0 20px;
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+header nav img {
+	padding: 10px 0;
+}
+header nav ul li a:hover {
+	background: #ccc;
+}
+.hero {
+	max-width: 100%;
+	height: 300px;
+	background: url(https://images.unsplash.com/1/macbook-air-all-faded-and-stuff.jpg) ;
+	background-size: 100% 100%;
+	background-position: center;
+	overflow: hidden;
+}
+.slogan {
+	float: right;
+	margin-top: 20vh;
+	padding:5px 25px 5px 5px;
+	color: white;
+	background-color: rgba(1, 1, 0, 0.4);
+	font-size: 12px;
+}
+.elements {
+	text-align: center;
+}
+.fworks {
+	text-align: center;
+}
+.numbers {
+	margin: 10px auto;	
+}
+.gallery img {
+	width: 100%;
+	height: auto;
+}
+.team {
+	text-align: center;
+}
+.team img {
+	margin-top: 30px;
+	padding: 30px;
+	border-radius: 50%;
+}
+.gallery [class*="col-"] {
+	position: relative;
+}
+.gallery .row [class*="col-"] .layer .cont1 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: calc(50% - 25px);
+	left: calc(30% - 25px);
+	color: white;
+}
+.gallery .row [class*="col-"] .layer .cont2 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: calc(50% - 25px);
+	right: calc(30% - 50px);
+	color: white;
+}
+.team [class*="col-"] {
+	position: relative;
+}
+.team .row [class*="col-"] .layer .cont1 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: calc(50% - 25px);
+	left: calc(50% - 30px);
+	color: white;
+}
+.promotion {
+	width: 100%;
+	height: auto;
+	background: url(http://i.imgur.com/y5kp2g3.jpg) ;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	color: white;
+	font-size: 16px;
+}
+}
+@media(min-width: 768px) {
+.gallery [class*="col-"] {
+	position: relative;
+}
+.gallery .row [class*="col-"] .layer {
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+.gallery .row  [class*="col-"]:hover .layer {
+	display: block;
+}
+.gallery .row [class*="col-"] .layer .cont1 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: calc(50% - 25px);
+	left: calc(30% - 25px);
+	color: white;
+}
+.gallery .row [class*="col-"] .layer .cont2 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: calc(50% - 25px);
+	right: calc(30% - 50px);
+	color: white;
+}
+.team [class*="col-"] {
+	position: relative;
+}
+.team .row [class*="col-"] .layer {
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: none;
+}
+.team .row  [class*="col-"]:hover .layer {
+	display: block;
+}
+.team .row [class*="col-"] .layer .cont1 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: calc(50% - 25px);
+	left: calc(50% - 30px);
+	color: white;
+}
