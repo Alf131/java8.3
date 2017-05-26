@@ -1,5 +1,5 @@
 // scripts.js
 
 var name = prompt('Enter your name');
-alert('Hello, ' + name);
+alert('Greetings Mentor, ' + name);
 console.log('Hello, ' + name);
